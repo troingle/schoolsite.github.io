@@ -28,6 +28,11 @@ p {
     color: #FFFFFF;
 }
 
+#toptext1{
+    text-align: center;
+    top: 0px;
+  }
+
 
 /* following code blatantly stolen from my previous project */
 
