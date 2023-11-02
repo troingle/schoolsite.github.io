@@ -3,11 +3,7 @@ body {
     background-color: #CE5A67;
 }
 
-@media (max-width: 768px) {
-    body {
-        background-color: white;
-    }
-}
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
