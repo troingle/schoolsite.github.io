@@ -29,9 +29,16 @@ p {
 }
 
 #toptext1{
-    text-align: center;
+    font-size: 40px;
+    left: 500px;
     top: 0px;
   }
+
+#toptext1{
+font-size: 40px;
+right: 500px;
+top: 0px;
+}
 
 
 /* following code blatantly stolen from my previous project */
