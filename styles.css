@@ -6,7 +6,7 @@ body {
 }
 
 .funny-box {
-    width: 100%;
+    width: 100000px;
     height: 100px;
     background-color: #3F0071;
     position: absolute;
@@ -14,12 +14,10 @@ body {
 }
 
 h1 {
-    font-family: 'Helvetica', sans-serif;
     color: #FFFFFF;
 }
 
 p {
-    font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     color: #FFFFFF;
 }
@@ -29,7 +27,6 @@ p {
 /* following code blatantly stolen from my previous project */
 
 .link-text {
-    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 43px;
@@ -41,7 +38,6 @@ p {
 }
 
 .link-text:hover {
-    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 43px;
@@ -53,27 +49,22 @@ p {
 }
 
 .sourcecode-text {
-    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 43px;
     color: #FFFFFF;
     cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 auto;
+    position: absolute;
     bottom: 0;
 }
 
 .sourcecode-text:hover {
-    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 43px;
     color: #610094;
     cursor: pointer;
     text-decoration: none;
-    display: inline-block;
-    margin: 0 auto;
+    position: absolute;
     bottom: 0;
 }
