@@ -59,7 +59,7 @@ p {
 .link-text:hover {
     font-weight: bold;
     text-align: center;
-    font-size: 34px;
+    font-size: 47px;
     color: #610094;
     cursor: pointer;
     text-decoration: none;
@@ -67,23 +67,4 @@ p {
     margin: 0 auto;
 }
 
-.sourcecode-text {
-    font-weight: bold;
-    text-align: center;
-    font-size: 43px;
-    color: #FFFFFF;
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-}
 
-.sourcecode-text:hover {
-    font-weight: bold;
-    text-align: center;
-    font-size: 43px;
-    color: #610094;
-    cursor: pointer;
-    text-decoration: none;
-    position: absolute;
-    bottom: 0;
-}
