@@ -1,27 +1,40 @@
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background-color: #0C356A;
+    background-color: #FCF5ED;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #fffaff;
+    color: #1F1717;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #fffaff;
+    color: #1F1717;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+nav {
+    background-color: #333;
+    color: white;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* following code blatantly stolen from my previous project */
 
@@ -30,7 +43,7 @@ button {
     font-weight: bold;
     text-align: center;
     font-size: 43px;
-    color: #fffaff;
+    color: #1F1717;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
