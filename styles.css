@@ -1,17 +1,17 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     background-color: #CE5A67;
 }
 
 
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     color: #1F1717;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     font-size: 18px;
     color: #1F1717;
     text-align: left;
@@ -36,7 +36,7 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ nav a {
 /* following code blatantly stolen from my previous project */
 
 .link-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 43px;
@@ -56,7 +56,7 @@ nav a {
 }
 
 .link-text:hover {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 43px;
