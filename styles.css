@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
     background-color: #FCF5ED;
 }
 
@@ -13,6 +12,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #1F1717;
+    text-align: left;
 }
 
 nav {
@@ -35,6 +35,7 @@ nav a {
     color: #ffffff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 
