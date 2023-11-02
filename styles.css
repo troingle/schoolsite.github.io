@@ -1,6 +1,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FCF5ED;
+    background-color: #CE5A67;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: white;
+    }
 }
 
 h1 {
