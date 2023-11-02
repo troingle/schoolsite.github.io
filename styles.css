@@ -67,6 +67,7 @@ p {
     padding-top: 30%;
     background-color: #CF0A0A;
     border-radius: 50%;
+    border: 10px solid black;
     position: relative;
     z-index: -1;
 }
