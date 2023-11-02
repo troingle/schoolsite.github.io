@@ -1,14 +1,18 @@
-function updateBackgroundColor() {
-    const pos = window.scrollY;
-    const breakpoint = 500; 
-
-    if (pos >= breakpoint) {
-        document.body.style.backgroundColor = 'white';
-    } else {
-        document.body.style.backgroundColor = '#CE5A67';
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
     }
+    return color;
 }
 
-window.addEventListener('scroll', updateBackgroundColor);
+function changeBackgroundColor() {
 
-updateBackgroundColor();
+    const color = getRandomColor;
+
+    document.body.style.backgroundColor = color;
+  }
+
+setInterval(changeBackgroundColor, 3000);
+
