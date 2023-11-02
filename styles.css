@@ -1,15 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #0C356A
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background-color: #0C356A;
 }
 
 h1 {
-    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF0CE;
 }
 
 p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    color: #FFF0CE;
 }
 
 button {
@@ -18,4 +21,30 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+/* following code blatantly stolen from my previous project */
+
+.link-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 43px;
+    color: #fffaff;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.link-text:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 43px;
+    color: #3E92CC;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
 }
