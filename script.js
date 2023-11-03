@@ -22,14 +22,14 @@ const mails = [
     'sirpa.niinistö@syk.fi',
     'milla.kontio@gov.de',
     'veikko.rantanen@gmail.com',
-    'Juha Leskinen@pieksämail.net'
+    'juhaleskinen@pieksämail.net'
 ]
 
 const imageFiles = ['tutor1.jpeg', 'tutor2.jpeg', 'tutor3.jpeg'];
 
 function getRandomName() {
     const randomIndex = Math.floor(Math.random() * names.length);
-    return names[randomIndex] + "" + mails[randomIndex];
+    return names[randomIndex] + "<br>" + mails[randomIndex];
 }
 
 
