@@ -29,7 +29,7 @@ const imageFiles = ['tutor1.jpeg', 'tutor2.jpeg', 'tutor3.jpeg'];
 
 function getRandomName() {
     const randomIndex = Math.floor(Math.random() * names.length);
-    return names[randomIndex] + "<br>" + mails[randomIndex];
+    return names[randomIndex] + " - " + mails[randomIndex];
 }
 
 
