@@ -3,104 +3,69 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-#text-area {
-  width: 500px;
-  height: 150px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-}
-
-#text-input {
-  font-size: 25px;
-  border: 1px solid #ccc;
-  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 55px;
+    font-size: 30px; /* Adjust the font size for mobile */
     color: #000000;
     text-align: center;
+    margin: 20px 0; /* Add margin for better spacing */
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 24px; /* Adjust the font size for mobile */
     color: #000000;
     text-align: center;
+    margin: 20px 0; /* Add margin for better spacing */
 }
 
-p {
-    font-size: 18px;
-    color: #FFFFFF;
+#text-area {
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
 }
 
-#toptext1{
-    font-size: 40px;
-    left: 500px;
-    top: 0px;
-  }
-
-#toptext1{
-font-size: 40px;
-right: 500px;
-top: 0px;
+#text-input {
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid #ccc;
 }
-
-
-/* following code blatantly stolen from my previous project */
 
 .link-text {
     font-weight: bold;
-    text-align: center;
-    font-size: 45px;
+    font-size: 20px; /* Adjust the font size for mobile */
     color: #000000;
     cursor: pointer;
     text-decoration: none;
-    display: inline-block;
-    margin: 0 auto;
+    display: block; /* Make the links take up the full width */
+    margin: 20px 0; /* Add margin for better spacing */
 }
 
-.link-text:hover {
-    font-weight: bold;
-    text-align: center;
-    font-size: 45px;
-    color: #610094;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 auto;
+/* Add media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #text-area {
+        width: 100%;
+        max-width: none;
+    }
+
+    #text-input {
+        width: 100%;
+    }
+
+    .link-text {
+        font-size: 18px;
+    }
 }
-
-.ball-container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ball {
-    width: 150%;
-    height: 25%;
-    padding-top: 30%;
-    background-color: #CF0A0A;
-    border-radius: 50%;
-    border: 10px solid black;
-    position: relative;
-    z-index: -1;
-}
-
-#subject-names {
-  font-size: 26px;
-}
-
-
-
-
