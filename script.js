@@ -6,33 +6,38 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const names = [
-    'H. Mäkeläinen',
-    'T. Veijarila',
-    'H. Suo',
-    'S. Niinistö',
-    'M. Kontio',
-    'V. Rantanen',
-    'J. Leskinen'
+    'Heimo Mäkeläinen',
+    'Taina Veijarila',
+    'Hermanni Suo',
+    'Sirpa Niinistö',
+    'Milla Kontio',
+    'Veikko Rantanen',
+    'Juha Leskinen'
+]
+
+const mails = [
+    'heimo.mäkeäläinen@hotmail.com',
+    'taina.veijarila@syk.fi',
+    'hermanni.suo@gmail.com',
+    'sirpa.niinistö@syk.fi',
+    'milla.kontio@gov.de',
+    'veikko.rantanen@gmail.com',
+    'Juha Leskinen@pieksämail.net'
 ]
 
 const imageFiles = ['tutor1.jpeg', 'tutor2.jpeg', 'tutor3.jpeg'];
 
 function getRandomName() {
     const randomIndex = Math.floor(Math.random() * names.length);
-    return names[randomIndex];
+    return names[randomIndex] + "" + mails[randomIndex];
 }
 
-function getRandomImage() {
-    const randomIndex = Math.floor(Math.random() * imageFiles.length);
-    return imageFiles[randomIndex];
-}
+
 
 function updatePage() {
     const randomName = getRandomName();
-    const randomImage = getRandomImage();
 
     document.getElementById('name').textContent = randomName;
-    document.getElementById('image').src = randomImage;
 }
 
 updatePage();
