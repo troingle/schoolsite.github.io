@@ -76,6 +76,7 @@ top: 0px;
 
 .ball {
     width: 150%;
+    height: 75%;
     padding-top: 30%;
     background-color: #CF0A0A;
     border-radius: 50%;
