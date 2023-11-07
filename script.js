@@ -29,15 +29,19 @@ const imageFiles = ['tutor1.jpeg', 'tutor2.jpeg', 'tutor3.jpeg'];
 
 function getRandomName() {
     const randomIndex = Math.floor(Math.random() * names.length);
-    return names[randomIndex] + " - " + mails[randomIndex];
+    return mails[randomIndex];
 }
 
 
 
 function updatePage() {
-    const randomName = getRandomName();
+    const mail = getRandomName();
+    const randomIndex = Math.floor(Math.random() * names.length);
+    document.getElementById('name').textContent = names[randomIndex] + " - " + mail;
 
-    document.getElementById('name').textContent = randomName;
+    var emailLink = document.getElementById("emailLink");
+    emailLink.href = "mailto:" + mail;
+
 }
 
 updatePage();
