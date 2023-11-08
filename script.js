@@ -37,10 +37,6 @@ function getRandomName() {
     const randomIndex = Math.floor(Math.random() * names.length);
     mail = mails[randomIndex];
 
-    var emailLink = document.getElementById("emailLink");
-
-    emailLink.href = "mailto:" + mail;
-
     return names[randomIndex] + " - " + mail;
 }
 
