@@ -41,9 +41,8 @@ function getRandomName() {
 
 
 function updatePage() {
-    const mail = getRandomName();
-    const randomIndex = Math.floor(Math.random() * names.length);
-    document.getElementById('name').textContent = names[randomIndex] + " - " + mail;
+    const textStuff = getRandomName();
+    document.getElementById('name').textContent = textStuff;
 }
 
 updatePage();
